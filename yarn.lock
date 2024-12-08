@@ -732,6 +732,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "class@workspace:."
   dependencies:
+    "@ant-design/icons": "npm:^5.5.2"
     "@emotion/react": "npm:^11.13.3"
     "@emotion/styled": "npm:^11.13.0"
     ant-design: "npm:^1.0.0"

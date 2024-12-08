@@ -1,0 +1,126 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/index";
+exports.ids = ["pages/index"];
+exports.modules = {
+
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _src_component_unit_index_IndexContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/component/unit/index/IndexContainer */ \"./src/component/unit/index/IndexContainer.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_src_component_unit_index_IndexContainer__WEBPACK_IMPORTED_MODULE_1__]);\n_src_component_unit_index_IndexContainer__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\nfunction Home() {\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_src_component_unit_index_IndexContainer__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n        fileName: \"C:\\\\Users\\\\junhe\\\\OneDrive\\\\Desktop\\\\works\\\\college\\\\BuildUp\\\\Fe\\\\next-question-react\\\\pages\\\\index.js\",\n        lineNumber: 5,\n        columnNumber: 10\n    }, this));\n};\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFtRTtBQUdwRCxRQUFRLENBQUNDLElBQUksR0FBRyxDQUFDO0lBQzlCLE1BQU0sNkVBQUVELGdGQUFVOzs7OztBQUNwQixDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2xhc3MvLi9wYWdlcy9pbmRleC5qcz9iZWU3Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBJbmRleExvZ2ljIGZyb20gXCIuLi9zcmMvY29tcG9uZW50L3VuaXQvaW5kZXgvSW5kZXhDb250YWluZXJcIlxyXG5cclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhvbWUoKSB7XHJcbiAgcmV0dXJuIDxJbmRleExvZ2ljPjwvSW5kZXhMb2dpYz5cclxufVxyXG4iXSwibmFtZXMiOlsiSW5kZXhMb2dpYyIsIkhvbWUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/index.js\n");
+
+/***/ }),
+
+/***/ "./src/component/unit/index/IndexContainer.js":
+/*!****************************************************!*\
+  !*** ./src/component/unit/index/IndexContainer.js ***!
+  \****************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ IndexLogic)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _IndexPresenter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./IndexPresenter */ \"./src/component/unit/index/IndexPresenter.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_IndexPresenter__WEBPACK_IMPORTED_MODULE_1__]);\n_IndexPresenter__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\nfunction IndexLogic() {\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_IndexPresenter__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n        fileName: \"C:\\\\Users\\\\junhe\\\\OneDrive\\\\Desktop\\\\works\\\\college\\\\BuildUp\\\\Fe\\\\next-question-react\\\\src\\\\component\\\\unit\\\\index\\\\IndexContainer.js\",\n        lineNumber: 5,\n        columnNumber: 12\n    }, this));\n};\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50L3VuaXQvaW5kZXgvSW5kZXhDb250YWluZXIuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBc0M7QUFFdkIsUUFBUSxDQUFDQyxVQUFVLEdBQUUsQ0FBQztJQUVqQyxNQUFNLDZFQUFFRCx1REFBTzs7Ozs7QUFDbkIsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2NsYXNzLy4vc3JjL2NvbXBvbmVudC91bml0L2luZGV4L0luZGV4Q29udGFpbmVyLmpzPzBlMGUiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEluZGV4VUkgZnJvbSBcIi4vSW5kZXhQcmVzZW50ZXJcIlxyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSW5kZXhMb2dpYygpe1xyXG5cclxuICAgIHJldHVybiA8SW5kZXhVST48L0luZGV4VUk+O1xyXG59Il0sIm5hbWVzIjpbIkluZGV4VUkiLCJJbmRleExvZ2ljIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/component/unit/index/IndexContainer.js\n");
+
+/***/ }),
+
+/***/ "./src/component/unit/index/IndexPresenter.js":
+/*!****************************************************!*\
+  !*** ./src/component/unit/index/IndexPresenter.js ***!
+  \****************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ IndexUI)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Upload_UploadContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Upload/UploadContainer */ \"./src/component/unit/index/Upload/UploadContainer.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_Upload_UploadContainer__WEBPACK_IMPORTED_MODULE_1__]);\n_Upload_UploadContainer__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\nfunction IndexUI() {\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            \"This is Index\",\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_Upload_UploadContainer__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\junhe\\\\OneDrive\\\\Desktop\\\\works\\\\college\\\\BuildUp\\\\Fe\\\\next-question-react\\\\src\\\\component\\\\unit\\\\index\\\\IndexPresenter.js\",\n                lineNumber: 8,\n                columnNumber: 9\n            }, this)\n        ]\n    }, void 0, true));\n};\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50L3VuaXQvaW5kZXgvSW5kZXhQcmVzZW50ZXIuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBa0Q7QUFFbkMsUUFBUSxDQUFDQyxPQUFPLEdBQUUsQ0FBQztJQUU5QixNQUFNOztZQUNBLENBRUY7d0ZBQUNELCtEQUFXOzs7Ozs7O0FBR3BCLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jbGFzcy8uL3NyYy9jb21wb25lbnQvdW5pdC9pbmRleC9JbmRleFByZXNlbnRlci5qcz83NjM5Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBVcGxvYWRMb2dpYyBmcm9tIFwiLi9VcGxvYWQvVXBsb2FkQ29udGFpbmVyXCI7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBJbmRleFVJKCl7XHJcblxyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8PlxyXG4gICAgICAgIFRoaXMgaXMgSW5kZXhcclxuICAgICAgICA8VXBsb2FkTG9naWM+PC9VcGxvYWRMb2dpYz5cclxuICAgICAgICA8Lz5cclxuICAgIClcclxufSJdLCJuYW1lcyI6WyJVcGxvYWRMb2dpYyIsIkluZGV4VUkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/component/unit/index/IndexPresenter.js\n");
+
+/***/ }),
+
+/***/ "./src/component/unit/index/Upload/UploadContainer.js":
+/*!************************************************************!*\
+  !*** ./src/component/unit/index/Upload/UploadContainer.js ***!
+  \************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ UploadLogic)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _UploadPresenter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./UploadPresenter */ \"./src/component/unit/index/Upload/UploadPresenter.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_UploadPresenter__WEBPACK_IMPORTED_MODULE_1__]);\n_UploadPresenter__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\nfunction UploadLogic() {\n    const props = {\n        name: 'file',\n        multiple: false,\n        action: \"\",\n        onChange (info) {\n            const { status  } = info.file;\n            if (status !== 'uploading') {\n                console.log(info.file, info.fileList);\n            }\n            if (status === 'done') {\n                message.success(`${info.file.name} file uploaded successfully.`);\n            } else if (status === 'error') {\n                message.error(`${info.file.name} file upload failed.`);\n            }\n        },\n        onDrop (e) {\n            console.log('Dropped files', e.dataTransfer.files);\n        }\n    };\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_UploadPresenter__WEBPACK_IMPORTED_MODULE_1__.UploadUI, {\n        option: props\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\junhe\\\\OneDrive\\\\Desktop\\\\works\\\\college\\\\BuildUp\\\\Fe\\\\next-question-react\\\\src\\\\component\\\\unit\\\\index\\\\Upload\\\\UploadContainer.js\",\n        lineNumber: 25,\n        columnNumber: 12\n    }, this));\n};\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50L3VuaXQvaW5kZXgvVXBsb2FkL1VwbG9hZENvbnRhaW5lci5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUE0QztBQUU3QixRQUFRLENBQUNDLFdBQVcsR0FBRSxDQUFDO0lBQ2xDLEtBQUssQ0FBQ0MsS0FBSyxHQUFHLENBQUM7UUFDWEMsSUFBSSxFQUFFLENBQU07UUFDWkMsUUFBUSxFQUFFLEtBQUs7UUFDZkMsTUFBTSxFQUFFLENBQUU7UUFDVkMsUUFBUSxFQUFDQyxJQUFJLEVBQUUsQ0FBQztZQUNaLEtBQUssQ0FBQyxDQUFDLENBQUNDLE1BQU0sRUFBQyxDQUFDLEdBQUdELElBQUksQ0FBQ0UsSUFBSTtZQUM1QixFQUFFLEVBQUVELE1BQU0sS0FBSyxDQUFXLFlBQUUsQ0FBQztnQkFDM0JFLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDSixJQUFJLENBQUNFLElBQUksRUFBRUYsSUFBSSxDQUFDSyxRQUFRO1lBQ3RDLENBQUM7WUFDRCxFQUFFLEVBQUVKLE1BQU0sS0FBSyxDQUFNLE9BQUUsQ0FBQztnQkFDdEJLLE9BQU8sQ0FBQ0MsT0FBTyxJQUFJUCxJQUFJLENBQUNFLElBQUksQ0FBQ04sSUFBSSxDQUFDLDRCQUE0QjtZQUNoRSxDQUFDLE1BQU0sRUFBRSxFQUFFSyxNQUFNLEtBQUssQ0FBTyxRQUFFLENBQUM7Z0JBQzlCSyxPQUFPLENBQUNFLEtBQUssSUFBSVIsSUFBSSxDQUFDRSxJQUFJLENBQUNOLElBQUksQ0FBQyxvQkFBb0I7WUFDdEQsQ0FBQztRQUNILENBQUM7UUFDSGEsTUFBTSxFQUFDQyxDQUFDLEVBQUUsQ0FBQztZQUNQUCxPQUFPLENBQUNDLEdBQUcsQ0FBQyxDQUFlLGdCQUFFTSxDQUFDLENBQUNDLFlBQVksQ0FBQ0MsS0FBSztRQUNyRCxDQUFDO0lBQ0wsQ0FBQztJQUdELE1BQU0sNkVBQUVuQixzREFBUTtRQUFDb0IsTUFBTSxFQUFJbEIsS0FBSzs7Ozs7O0FBQ3BDLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jbGFzcy8uL3NyYy9jb21wb25lbnQvdW5pdC9pbmRleC9VcGxvYWQvVXBsb2FkQ29udGFpbmVyLmpzPzUyYTMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgVXBsb2FkVUkgfSBmcm9tIFwiLi9VcGxvYWRQcmVzZW50ZXJcIjtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFVwbG9hZExvZ2ljKCl7XHJcbiAgICBjb25zdCBwcm9wcyA9IHtcclxuICAgICAgICBuYW1lOiAnZmlsZScsXHJcbiAgICAgICAgbXVsdGlwbGU6IGZhbHNlLFxyXG4gICAgICAgIGFjdGlvbjogXCJcIiwvL2FwaSDso7zshowsXHJcbiAgICAgICAgb25DaGFuZ2UoaW5mbykge1xyXG4gICAgICAgICAgICBjb25zdCB7IHN0YXR1cyB9ID0gaW5mby5maWxlO1xyXG4gICAgICAgICAgICBpZiAoc3RhdHVzICE9PSAndXBsb2FkaW5nJykge1xyXG4gICAgICAgICAgICAgIGNvbnNvbGUubG9nKGluZm8uZmlsZSwgaW5mby5maWxlTGlzdCk7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgaWYgKHN0YXR1cyA9PT0gJ2RvbmUnKSB7XHJcbiAgICAgICAgICAgICAgbWVzc2FnZS5zdWNjZXNzKGAke2luZm8uZmlsZS5uYW1lfSBmaWxlIHVwbG9hZGVkIHN1Y2Nlc3NmdWxseS5gKTtcclxuICAgICAgICAgICAgfSBlbHNlIGlmIChzdGF0dXMgPT09ICdlcnJvcicpIHtcclxuICAgICAgICAgICAgICBtZXNzYWdlLmVycm9yKGAke2luZm8uZmlsZS5uYW1lfSBmaWxlIHVwbG9hZCBmYWlsZWQuYCk7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgIH0sXHJcbiAgICAgICAgb25Ecm9wKGUpIHtcclxuICAgICAgICAgICAgY29uc29sZS5sb2coJ0Ryb3BwZWQgZmlsZXMnLCBlLmRhdGFUcmFuc2Zlci5maWxlcyk7XHJcbiAgICAgICAgfSxcclxuICAgIH1cclxuXHJcblxyXG4gICAgcmV0dXJuIDxVcGxvYWRVSSBvcHRpb24gPSB7cHJvcHN9PjwvVXBsb2FkVUk+XHJcbn0iXSwibmFtZXMiOlsiVXBsb2FkVUkiLCJVcGxvYWRMb2dpYyIsInByb3BzIiwibmFtZSIsIm11bHRpcGxlIiwiYWN0aW9uIiwib25DaGFuZ2UiLCJpbmZvIiwic3RhdHVzIiwiZmlsZSIsImNvbnNvbGUiLCJsb2ciLCJmaWxlTGlzdCIsIm1lc3NhZ2UiLCJzdWNjZXNzIiwiZXJyb3IiLCJvbkRyb3AiLCJlIiwiZGF0YVRyYW5zZmVyIiwiZmlsZXMiLCJvcHRpb24iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/component/unit/index/Upload/UploadContainer.js\n");
+
+/***/ }),
+
+/***/ "./src/component/unit/index/Upload/UploadPresenter.js":
+/*!************************************************************!*\
+  !*** ./src/component/unit/index/Upload/UploadPresenter.js ***!
+  \************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"UploadUI\": () => (/* binding */ UploadUI)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _UploadStyles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./UploadStyles */ \"./src/component/unit/index/Upload/UploadStyles.js\");\n/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ant-design/icons */ \"@ant-design/icons\");\n/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_ant_design_icons__WEBPACK_IMPORTED_MODULE_2__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_UploadStyles__WEBPACK_IMPORTED_MODULE_1__]);\n_UploadStyles__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\nfunction UploadUI(props) {\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_UploadStyles__WEBPACK_IMPORTED_MODULE_1__.Upload__Upload, {\n            ...props.option,\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                    className: \"ant-upload-drag-icon\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_ant_design_icons__WEBPACK_IMPORTED_MODULE_2__.InboxOutlined, {}, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\junhe\\\\OneDrive\\\\Desktop\\\\works\\\\college\\\\BuildUp\\\\Fe\\\\next-question-react\\\\src\\\\component\\\\unit\\\\index\\\\Upload\\\\UploadPresenter.js\",\n                        lineNumber: 10,\n                        columnNumber: 13\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\junhe\\\\OneDrive\\\\Desktop\\\\works\\\\college\\\\BuildUp\\\\Fe\\\\next-question-react\\\\src\\\\component\\\\unit\\\\index\\\\Upload\\\\UploadPresenter.js\",\n                    lineNumber: 9,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                    className: \"ant-upload-text\",\n                    children: \"Click or drag file to this area to upload\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\junhe\\\\OneDrive\\\\Desktop\\\\works\\\\college\\\\BuildUp\\\\Fe\\\\next-question-react\\\\src\\\\component\\\\unit\\\\index\\\\Upload\\\\UploadPresenter.js\",\n                    lineNumber: 12,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                    className: \"ant-upload-hint\",\n                    children: \"Support for a single or bulk upload. Strictly prohibited from uploading company data or other banned files.\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\junhe\\\\OneDrive\\\\Desktop\\\\works\\\\college\\\\BuildUp\\\\Fe\\\\next-question-react\\\\src\\\\component\\\\unit\\\\index\\\\Upload\\\\UploadPresenter.js\",\n                    lineNumber: 13,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"C:\\\\Users\\\\junhe\\\\OneDrive\\\\Desktop\\\\works\\\\college\\\\BuildUp\\\\Fe\\\\next-question-react\\\\src\\\\component\\\\unit\\\\index\\\\Upload\\\\UploadPresenter.js\",\n            lineNumber: 8,\n            columnNumber: 9\n        }, this)\n    }, void 0, false));\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50L3VuaXQvaW5kZXgvVXBsb2FkL1VwbG9hZFByZXNlbnRlci5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7O0FBQStDO0FBQ0U7QUFFMUMsU0FBU0UsUUFBUSxDQUFDQyxLQUFLLEVBQUMsQ0FBQztJQUU1QixNQUFNOzhGQUVESCx5REFBYztlQUFLRyxLQUFLLENBQUNDLE1BQU07OzRGQUMvQkMsQ0FBQztvQkFBQ0MsU0FBUyxFQUFDLENBQXNCOzBHQUM5QkwsNERBQWE7Ozs7Ozs7Ozs7NEZBRWpCSSxDQUFDO29CQUFDQyxTQUFTLEVBQUMsQ0FBaUI7OEJBQUMsQ0FBeUM7Ozs7Ozs0RkFDdkVELENBQUM7b0JBQUNDLFNBQVMsRUFBQyxDQUFpQjs4QkFBQyxDQUcvQjs7Ozs7Ozs7Ozs7OztBQUlSLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jbGFzcy8uL3NyYy9jb21wb25lbnQvdW5pdC9pbmRleC9VcGxvYWQvVXBsb2FkUHJlc2VudGVyLmpzPzY4MWYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgVXBsb2FkX19VcGxvYWQgfSBmcm9tIFwiLi9VcGxvYWRTdHlsZXNcIjtcclxuaW1wb3J0IHsgSW5ib3hPdXRsaW5lZCB9IGZyb20gJ0BhbnQtZGVzaWduL2ljb25zJztcclxuXHJcbmV4cG9ydCBmdW5jdGlvbiBVcGxvYWRVSShwcm9wcyl7XHJcbiAgICBcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPD5cclxuICAgICAgICA8VXBsb2FkX19VcGxvYWQgey4uLnByb3BzLm9wdGlvbn0+XHJcbiAgICAgICAgPHAgY2xhc3NOYW1lPVwiYW50LXVwbG9hZC1kcmFnLWljb25cIj5cclxuICAgICAgICAgICAgPEluYm94T3V0bGluZWQgLz5cclxuICAgICAgICA8L3A+XHJcbiAgICAgICAgPHAgY2xhc3NOYW1lPVwiYW50LXVwbG9hZC10ZXh0XCI+Q2xpY2sgb3IgZHJhZyBmaWxlIHRvIHRoaXMgYXJlYSB0byB1cGxvYWQ8L3A+XHJcbiAgICAgICAgPHAgY2xhc3NOYW1lPVwiYW50LXVwbG9hZC1oaW50XCI+XHJcbiAgICAgICAgIFN1cHBvcnQgZm9yIGEgc2luZ2xlIG9yIGJ1bGsgdXBsb2FkLiBTdHJpY3RseSBwcm9oaWJpdGVkIGZyb20gdXBsb2FkaW5nIGNvbXBhbnkgZGF0YSBvciBvdGhlclxyXG4gICAgICAgICBiYW5uZWQgZmlsZXMuXHJcbiAgICAgICAgPC9wPlxyXG4gICAgICAgIDwvVXBsb2FkX19VcGxvYWQ+XHJcbiAgICAgICAgPC8+XHJcbiAgICApXHJcbn0iXSwibmFtZXMiOlsiVXBsb2FkX19VcGxvYWQiLCJJbmJveE91dGxpbmVkIiwiVXBsb2FkVUkiLCJwcm9wcyIsIm9wdGlvbiIsInAiLCJjbGFzc05hbWUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/component/unit/index/Upload/UploadPresenter.js\n");
+
+/***/ }),
+
+/***/ "./src/component/unit/index/Upload/UploadStyles.js":
+/*!*********************************************************!*\
+  !*** ./src/component/unit/index/Upload/UploadStyles.js ***!
+  \*********************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Upload__Upload\": () => (/* binding */ Upload__Upload)\n/* harmony export */ });\n/* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd */ \"antd\");\n/* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/styled */ \"@emotion/styled\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_emotion_styled__WEBPACK_IMPORTED_MODULE_1__]);\n_emotion_styled__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\nconst Upload__Upload = (0,_emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(antd__WEBPACK_IMPORTED_MODULE_0__.Upload)`\n\n`;\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50L3VuaXQvaW5kZXgvVXBsb2FkL1VwbG9hZFN0eWxlcy5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQTJCO0FBQ1M7QUFFN0IsS0FBSyxDQUFDRSxjQUFjLEdBQUdELDJEQUFNLENBQUNELHdDQUFNLEVBQUU7O0FBRTdDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2xhc3MvLi9zcmMvY29tcG9uZW50L3VuaXQvaW5kZXgvVXBsb2FkL1VwbG9hZFN0eWxlcy5qcz85YjY1Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7VXBsb2FkfSBmcm9tIFwiYW50ZFwiO1xyXG5pbXBvcnQgc3R5bGVkIGZyb20gXCJAZW1vdGlvbi9zdHlsZWRcIjtcclxuXHJcbmV4cG9ydCBjb25zdCBVcGxvYWRfX1VwbG9hZCA9IHN0eWxlZChVcGxvYWQpYFxyXG5cclxuYCJdLCJuYW1lcyI6WyJVcGxvYWQiLCJzdHlsZWQiLCJVcGxvYWRfX1VwbG9hZCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/component/unit/index/Upload/UploadStyles.js\n");
+
+/***/ }),
+
+/***/ "@ant-design/icons":
+/*!************************************!*\
+  !*** external "@ant-design/icons" ***!
+  \************************************/
+/***/ ((module) => {
+
+module.exports = require("@ant-design/icons");
+
+/***/ }),
+
+/***/ "antd":
+/*!***********************!*\
+  !*** external "antd" ***!
+  \***********************/
+/***/ ((module) => {
+
+module.exports = require("antd");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ }),
+
+/***/ "@emotion/styled":
+/*!**********************************!*\
+  !*** external "@emotion/styled" ***!
+  \**********************************/
+/***/ ((module) => {
+
+module.exports = import("@emotion/styled");;
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("./pages/index.js"));
+module.exports = __webpack_exports__;
+
+})();

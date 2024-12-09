@@ -9,24 +9,24 @@ import {
   ResultWrapper,
   CirleBorder,
   InnerCircle,
-  Circlefont
+  Circlefont,
 } from "./Result.styles.js";
 
-export default function ResultPresenter(props){
+export default function ResultPresenter(props) {
   return (
     <ResultWrapper>
-    <ResultContainer>
-      <CirleBorder percentage = {(props.correctAnswers/props.totalQuestions) * 100}>
-      <Circlefont>{props.correctAnswers}/{props.totalQuestions}</Circlefont>
-        <InnerCircle></InnerCircle>
-      </CirleBorder>
-      {/* 학습 완료 버튼 */}
-      <CompleteButton>학습완료</CompleteButton>
-    </ResultContainer>
-   </ResultWrapper>
+      <ResultContainer>
+        <CirleBorder
+          percentage={(props.correctAnswers / props.totalQuestions) * 100}
+        >
+          <Circlefont>
+            {props.correctAnswers}/{props.totalQuestions}
+          </Circlefont>
+          <InnerCircle></InnerCircle>
+        </CirleBorder>
+        {/* 학습 완료 버튼 */}
+        <CompleteButton>학습완료</CompleteButton>
+      </ResultContainer>
+    </ResultWrapper>
   );
 }
-
- 
-
-

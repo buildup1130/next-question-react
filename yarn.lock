@@ -751,6 +751,7 @@ __metadata:
     react: "npm:17.0.2"
     react-dom: "npm:17.0.2"
     react-router-dom: "npm:^7.0.2"
+    spin.js: "npm:^4.1.2"
   languageName: unknown
   linkType: soft
 
@@ -1857,6 +1858,13 @@ __metadata:
   version: 0.5.7
   resolution: "source-map@npm:0.5.7"
   checksum: 10c0/904e767bb9c494929be013017380cbba013637da1b28e5943b566031e29df04fba57edf3f093e0914be094648b577372bd8ad247fa98cfba9c600794cd16b599
+  languageName: node
+  linkType: hard
+
+"spin.js@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "spin.js@npm:4.1.2"
+  checksum: 10c0/8d6f5ac99264b0197a69233bd5f7c9f5c5e7f3da8412fa41d7a36770ee7fea035673870fb9200ab0a8b0a77d72f95812355fe68e3416b4b6801d7d0a70b59fd3
   languageName: node
   linkType: hard
 

@@ -1,19 +1,24 @@
-import { Upload__Upload } from "./UploadStyles";
+import { Upload__Upload,Upload__hidden } from "./UploadStyles";
 import { InboxOutlined } from '@ant-design/icons';
 
 export function UploadUI(props){
     
     return (
         <>
-        <Upload__Upload {...props.option}>
-        <p className="ant-upload-drag-icon">
+        <Upload__Upload as = "label" htmlFor = "upload-hidden">
+            
+        <div className="ant-upload-drag-icon">
             <InboxOutlined />
-        </p>
-        <p className="ant-upload-text">Upload</p>
-        <p className="ant-upload-hint">
-         
-        </p>
+        </div>
+        <div className="ant-upload-text">Upload</div>
+        <div className="ant-upload-hint">         
+        </div>
         </Upload__Upload>
+        <Upload__hidden
+        type="file"
+        id = "upload-hidden"
+        onChange = {props.onChangeFile}
+        ></Upload__hidden>
         </>
     )
 }

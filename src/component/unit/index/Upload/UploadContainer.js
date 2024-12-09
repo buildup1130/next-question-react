@@ -1,26 +1,19 @@
+import { useState,useEffect } from "react";
 import { UploadUI } from "./UploadPresenter";
+import {message} from "antd";
+import axios from "axios";
 
-export default function UploadLogic(){
-    const props = {
-        name: 'file',
-        multiple: false,
-        action: "",//api 주소,
-        onChange(info) {
-            const { status } = info.file;
-            if (status !== 'uploading') {
-              console.log(info.file, info.fileList);
-            }
-            if (status === 'done') {
-              message.success(`${info.file.name} file uploaded successfully.`);
-            } else if (status === 'error') {
-              message.error(`${info.file.name} file upload failed.`);
-            }
-          },
-        onDrop(e) {
-            console.log('Dropped files', e.dataTransfer.files);
-        },
+export default function UploadLogic(props){
+    
+
+    const onChangeFile = async (event) => {
+      const selectedFile = event.target.files[0];
+      props.setFile(selectedFile);
     }
 
+    
 
-    return <UploadUI option = {props}></UploadUI>
+    return <UploadUI
+      onChangeFile = {onChangeFile}
+    ></UploadUI>
 }

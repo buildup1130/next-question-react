@@ -1,15 +1,16 @@
 import {Upload} from "antd";
 import styled from "@emotion/styled";
 
-export const Upload__Upload = styled(Upload)`
+export const Upload__Upload = styled.div`
     padding: 10px 20px;
-    height:150px;
-    width:150px;
+    height:200px;
+    width:100%;
 
     border: 1px dashed black;
     border-radius: 10px;
 
     display:flex;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
 
@@ -19,11 +20,23 @@ export const Upload__Upload = styled(Upload)`
     
     cursor: pointer;
     
+    .ant-upload{
+        width:100%;
+        height:100%;
+
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+
     :hover{
         border: 1px dashed #5383E8;
         color: #5383E8;
-        
-        transform: translateY(-2px);
-        box-shadow: 0px 2px 2px #5383E8;
+        background-color: #eeeeee;
     }
+`
+
+export const Upload__hidden = styled.input`
+    display:none;
 `

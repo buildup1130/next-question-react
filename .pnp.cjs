@@ -38,8 +38,12 @@ const RAW_RUNTIME_STATE =
           ["next", "virtual:22c07cb0189e98b55eaa3ecb258e33609350c9916c5fa5d897538c359190ea4d103308f5ac914f13edc488a20a38bb2bb0f4bf5a60290770b34357a24def19bd#npm:12.1.0"],\
           ["react", "npm:17.0.2"],\
           ["react-dom", "virtual:22c07cb0189e98b55eaa3ecb258e33609350c9916c5fa5d897538c359190ea4d103308f5ac914f13edc488a20a38bb2bb0f4bf5a60290770b34357a24def19bd#npm:17.0.2"],\
+<<<<<<< HEAD
           ["react-router-dom", "virtual:22c07cb0189e98b55eaa3ecb258e33609350c9916c5fa5d897538c359190ea4d103308f5ac914f13edc488a20a38bb2bb0f4bf5a60290770b34357a24def19bd#npm:7.0.2"],\
           ["spin.js", "npm:4.1.2"]\
+=======
+          ["react-router-dom", "virtual:22c07cb0189e98b55eaa3ecb258e33609350c9916c5fa5d897538c359190ea4d103308f5ac914f13edc488a20a38bb2bb0f4bf5a60290770b34357a24def19bd#npm:7.0.2"]\
+>>>>>>> ba6eda2 (etc)
         ],\
         "linkType": "SOFT"\
       }]\
@@ -914,7 +918,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@types/cookie", [\
       ["npm:0.6.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../../../.yarn/berry/cache/@types-cookie-npm-0.6.0-1f4c3f48f0-10c0.zip/node_modules/@types/cookie/",\
+=======
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/@types-cookie-npm-0.6.0-1f4c3f48f0-10c0.zip/node_modules/@types/cookie/",\
+>>>>>>> ba6eda2 (etc)
         "packageDependencies": [\
           ["@types/cookie", "npm:0.6.0"]\
         ],\
@@ -1081,8 +1089,12 @@ const RAW_RUNTIME_STATE =
           ["next", "virtual:22c07cb0189e98b55eaa3ecb258e33609350c9916c5fa5d897538c359190ea4d103308f5ac914f13edc488a20a38bb2bb0f4bf5a60290770b34357a24def19bd#npm:12.1.0"],\
           ["react", "npm:17.0.2"],\
           ["react-dom", "virtual:22c07cb0189e98b55eaa3ecb258e33609350c9916c5fa5d897538c359190ea4d103308f5ac914f13edc488a20a38bb2bb0f4bf5a60290770b34357a24def19bd#npm:17.0.2"],\
+<<<<<<< HEAD
           ["react-router-dom", "virtual:22c07cb0189e98b55eaa3ecb258e33609350c9916c5fa5d897538c359190ea4d103308f5ac914f13edc488a20a38bb2bb0f4bf5a60290770b34357a24def19bd#npm:7.0.2"],\
           ["spin.js", "npm:4.1.2"]\
+=======
+          ["react-router-dom", "virtual:22c07cb0189e98b55eaa3ecb258e33609350c9916c5fa5d897538c359190ea4d103308f5ac914f13edc488a20a38bb2bb0f4bf5a60290770b34357a24def19bd#npm:7.0.2"]\
+>>>>>>> ba6eda2 (etc)
         ],\
         "linkType": "SOFT"\
       }]\
@@ -1126,7 +1138,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["cookie", [\
       ["npm:1.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../../../.yarn/berry/cache/cookie-npm-1.0.2-7a4273d897-10c0.zip/node_modules/cookie/",\
+=======
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/cookie-npm-1.0.2-7a4273d897-10c0.zip/node_modules/cookie/",\
+>>>>>>> ba6eda2 (etc)
         "packageDependencies": [\
           ["cookie", "npm:1.0.2"]\
         ],\
@@ -2682,14 +2698,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-router", [\
       ["npm:7.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../../../.yarn/berry/cache/react-router-npm-7.0.2-b96f2bd13c-10c0.zip/node_modules/react-router/",\
+=======
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/react-router-npm-7.0.2-b96f2bd13c-10c0.zip/node_modules/react-router/",\
+>>>>>>> ba6eda2 (etc)
         "packageDependencies": [\
           ["react-router", "npm:7.0.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:c9f7d9d9558594c4d85bc3a0450bcc4fc3d58a5b76c7fd0461608f1c8af611fc344208b8a9407a29fa0e1c61d746ebf5138ccd4eee1c213834f6456cdcf35e21#npm:7.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/react-router-virtual-ff544912ba/6/.yarn/berry/cache/react-router-npm-7.0.2-b96f2bd13c-10c0.zip/node_modules/react-router/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/react-router-virtual-ff544912ba/8/AppData/Local/Yarn/Berry/cache/react-router-npm-7.0.2-b96f2bd13c-10c0.zip/node_modules/react-router/",\
+>>>>>>> ba6eda2 (etc)
         "packageDependencies": [\
           ["react-router", "virtual:c9f7d9d9558594c4d85bc3a0450bcc4fc3d58a5b76c7fd0461608f1c8af611fc344208b8a9407a29fa0e1c61d746ebf5138ccd4eee1c213834f6456cdcf35e21#npm:7.0.2"],\
           ["@types/cookie", "npm:0.6.0"],\
@@ -2712,14 +2736,22 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["react-router-dom", [\
       ["npm:7.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "../../../../../.yarn/berry/cache/react-router-dom-npm-7.0.2-e59f7896df-10c0.zip/node_modules/react-router-dom/",\
+=======
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/react-router-dom-npm-7.0.2-e59f7896df-10c0.zip/node_modules/react-router-dom/",\
+>>>>>>> ba6eda2 (etc)
         "packageDependencies": [\
           ["react-router-dom", "npm:7.0.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:22c07cb0189e98b55eaa3ecb258e33609350c9916c5fa5d897538c359190ea4d103308f5ac914f13edc488a20a38bb2bb0f4bf5a60290770b34357a24def19bd#npm:7.0.2", {\
+<<<<<<< HEAD
         "packageLocation": "./.yarn/__virtual__/react-router-dom-virtual-c9f7d9d955/6/.yarn/berry/cache/react-router-dom-npm-7.0.2-e59f7896df-10c0.zip/node_modules/react-router-dom/",\
+=======
+        "packageLocation": "./.yarn/__virtual__/react-router-dom-virtual-c9f7d9d955/8/AppData/Local/Yarn/Berry/cache/react-router-dom-npm-7.0.2-e59f7896df-10c0.zip/node_modules/react-router-dom/",\
+>>>>>>> ba6eda2 (etc)
         "packageDependencies": [\
           ["react-router-dom", "virtual:22c07cb0189e98b55eaa3ecb258e33609350c9916c5fa5d897538c359190ea4d103308f5ac914f13edc488a20a38bb2bb0f4bf5a60290770b34357a24def19bd#npm:7.0.2"],\
           ["@types/react", null],\
@@ -2799,7 +2831,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["set-cookie-parser", [\
       ["npm:2.7.1", {\
+<<<<<<< HEAD
         "packageLocation": "../../../../../.yarn/berry/cache/set-cookie-parser-npm-2.7.1-0e92d9e679-10c0.zip/node_modules/set-cookie-parser/",\
+=======
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/set-cookie-parser-npm-2.7.1-0e92d9e679-10c0.zip/node_modules/set-cookie-parser/",\
+>>>>>>> ba6eda2 (etc)
         "packageDependencies": [\
           ["set-cookie-parser", "npm:2.7.1"]\
         ],\
@@ -2917,7 +2953,11 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["turbo-stream", [\
       ["npm:2.4.0", {\
+<<<<<<< HEAD
         "packageLocation": "../../../../../.yarn/berry/cache/turbo-stream-npm-2.4.0-e0cec53097-10c0.zip/node_modules/turbo-stream/",\
+=======
+        "packageLocation": "../../../../../../../AppData/Local/Yarn/Berry/cache/turbo-stream-npm-2.4.0-e0cec53097-10c0.zip/node_modules/turbo-stream/",\
+>>>>>>> ba6eda2 (etc)
         "packageDependencies": [\
           ["turbo-stream", "npm:2.4.0"]\
         ],\

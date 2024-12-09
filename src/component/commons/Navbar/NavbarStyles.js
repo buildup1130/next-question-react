@@ -16,7 +16,7 @@ export const Navbar__Logo = styled.div`
     width: 100%;
     height: 101px;
     
-    font-size: 48px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 101px;
 ` 
@@ -30,14 +30,13 @@ export const Navbar__Container = styled.div`
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    gap: 20px; 
+    gap: 150px; 
 `
 
 export const Navbar__Element = styled.div`
     width: 100%;
 
     font-size: 32px;
-    
     cursor: pointer;
 
     :hover{

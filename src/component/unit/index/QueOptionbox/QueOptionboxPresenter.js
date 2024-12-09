@@ -1,4 +1,4 @@
-import { QueOptionbox__Button, QueOptionbox__Container, QueOptionbox__Subtitle,QueOptionbox__Count ,QueOptionbox__Wrapper, QueOptionbox__SubmitContainer, QueOptionbox__Backdrop } from "./QueOptionboxStyles";
+import { QueOptionbox__Button, QueOptionbox__Container, QueOptionbox__Subtitle,QueOptionbox__Count ,QueOptionbox__Wrapper, QueOptionbox__SubmitContainer, QueOptionbox__Backdrop, QueOptionbox__line } from "./QueOptionboxStyles";
 
 export default function QueOptionboxUI(props){
 
@@ -8,6 +8,10 @@ export default function QueOptionboxUI(props){
         onClick = {() => {props.setIsOpen(false)}}
     ></QueOptionbox__Backdrop>
     <QueOptionbox__Wrapper>
+        <QueOptionbox__Subtitle style = {{textAlign:"center"}}>
+            문제 생성하기
+        </QueOptionbox__Subtitle>
+        <QueOptionbox__line></QueOptionbox__line>
         <QueOptionbox__Subtitle>
             문제 개수
         </QueOptionbox__Subtitle> 
@@ -29,6 +33,9 @@ export default function QueOptionboxUI(props){
             >20</QueOptionbox__Button>
         </QueOptionbox__Container>
         <QueOptionbox__SubmitContainer>
+        <QueOptionbox__Button
+                onClick = {()=> {props.setIsOpen(false)}}
+            >취소하기</QueOptionbox__Button>
             <QueOptionbox__Button
                 onClick = {props.onClickSubmit}
             >생성하기</QueOptionbox__Button>

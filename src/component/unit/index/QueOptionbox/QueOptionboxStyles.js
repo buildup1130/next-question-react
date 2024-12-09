@@ -32,12 +32,22 @@ export const QueOptionbox__Wrapper = styled.div`
 export const QueOptionbox__Container = styled.div`
     display:flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px;
+    justify-content: center;
 `
 
 export const QueOptionbox__Subtitle = styled.div`
     font-size: 24px;
     font-weight: 700;
+    width: 100%;
+`
+
+export const QueOptionbox__line = styled.div`
+    width: 100%;
+    border-top: 1px solid gray;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
 `
 
 export const QueOptionbox__Count = styled.div`
@@ -53,4 +63,6 @@ export const QueOptionbox__Button = styled.button`
 export const QueOptionbox__SubmitContainer = styled.div`
     display:flex;
     justify-content:flex-end;
+    margin-top: 20px;
+    gap: 20px;
 `

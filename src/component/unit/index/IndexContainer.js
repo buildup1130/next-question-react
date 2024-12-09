@@ -1,12 +1,15 @@
 import IndexUI from "./IndexPresenter"
 import axios from "axios"
 import { useState, useEffect } from "react";
+import {useRouter} from "next/router"
+
 
 export default function IndexLogic(){
 
     const [file,setFile] = useState(undefined);
     const [count,setCount] = useState(0);
     const [isOpen, setIsOpen] = useState(false);
+    const router = useRouter();
 
     const uploadFile = async () => {
         const formData = new FormData();
@@ -35,7 +38,7 @@ export default function IndexLogic(){
       const onClickSubmit = () => {
           uploadFile()
           .then((res) => {
-            alert("화면 이동")
+            router.push('/learn')
           })
           .catch((error) => {
             alert("업로드 중 문제 발생")
@@ -48,7 +51,6 @@ export default function IndexLogic(){
       useEffect(() => {
         if(file){
         setIsOpen(true);
-        console.log(file);
         }
       }, [file]);
 

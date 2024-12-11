@@ -2,7 +2,11 @@ import styled from "@emotion/styled";
 
 export const ProgressBarContainer = styled.div`
   width: 100%; // 전체 너비
+<<<<<<< HEAD
   height: 20px; // 높이
+=======
+  height: 10px; // 높이
+>>>>>>> 1e625e4 (Frontend 통합)
   background-color: #ccc; // 배경색 (회색)
   border-radius: 5px; // 모서리 둥글게
   overflow: hidden; // 내부 요소 넘치지 않도록

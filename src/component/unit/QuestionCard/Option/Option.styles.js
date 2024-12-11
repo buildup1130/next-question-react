@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 
 export const OptionList = styled.ul`
   list-style: none; // 기본 리스트 스타일 제거
+<<<<<<< HEAD
   padding: 0 20px;
   margin-top: 20px;
 
@@ -11,17 +12,32 @@ export const OptionList = styled.ul`
 
 export const OptionItem = styled.li`
   font-size: 1.2rem;
+=======
+  padding: 0;
+  margin: 0;
+`;
+
+export const OptionItem = styled.li`
+>>>>>>> 1e625e4 (Frontend 통합)
   display: flex;
   align-items: center;
   padding: 10px;
   margin-bottom: 10px;
   cursor: pointer; // 클릭 가능하도록 설정
   background-color: ${({ isSelected, isCorrect, isIncorrect }) =>
+<<<<<<< HEAD
     // isCorrect
     //   ? "lightgreen" // 정답인 경우
     //   : isIncorrect
     //   ? "lightcoral" // 오답인 경우
     isSelected
+=======
+    isCorrect
+      ? "lightgreen" // 정답인 경우
+      : isIncorrect
+      ? "lightcoral" // 오답인 경우
+      : isSelected
+>>>>>>> 1e625e4 (Frontend 통합)
       ? "lightblue" // 선택된 경우
       : "white"}; // 기본 색상
   color: ${({ isCorrect, isIncorrect }) =>

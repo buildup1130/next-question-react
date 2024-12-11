@@ -1,4 +1,4 @@
-import { QueOptionbox__Button, QueOptionbox__Container, QueOptionbox__Subtitle,QueOptionbox__Count ,QueOptionbox__Wrapper, QueOptionbox__SubmitContainer, QueOptionbox__Backdrop, QueOptionbox__line } from "./QueOptionboxStyles";
+import { QueOptionbox__Button, QueOptionbox__Container, QueOptionbox__Subtitle,QueOptionbox__Count ,QueOptionbox__Wrapper, QueOptionbox__SubmitContainer, QueOptionbox__Backdrop, QueOptionbox__line,QueOptionbox__SubmitButton } from "./QueOptionboxStyles";
 
 export default function QueOptionboxUI(props){
 
@@ -31,14 +31,22 @@ export default function QueOptionboxUI(props){
             <QueOptionbox__Button
                 onClick = {() => {props.setCount(20)}}
             >20</QueOptionbox__Button>
+            <QueOptionbox__Button
+                onClick = {() => {props.setCount(25)}}
+            >25</QueOptionbox__Button>
+            <QueOptionbox__Button
+                onClick = {() => {props.setCount(30)}}
+            >30</QueOptionbox__Button>
         </QueOptionbox__Container>
         <QueOptionbox__SubmitContainer>
-        <QueOptionbox__Button
+        <QueOptionbox__SubmitButton
                 onClick = {()=> {props.setIsOpen(false)}}
-            >취소하기</QueOptionbox__Button>
-            <QueOptionbox__Button
+                style = {{backgroundColor: "#d9d9d9"}}
+            >취소하기</QueOptionbox__SubmitButton>
+            <QueOptionbox__SubmitButton
                 onClick = {props.onClickSubmit}
-            >생성하기</QueOptionbox__Button>
+                style = {{backgroundColor: "#fff350"}}
+            >생성하기</QueOptionbox__SubmitButton>
         </QueOptionbox__SubmitContainer>
     </QueOptionbox__Wrapper>
     </>

@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 
 export const Upload__Upload = styled.div`
     padding: 10px 20px;
-    height:200px;
+    height:300px;
     width:100%;
 
     border: 1px dashed black;
@@ -14,6 +14,7 @@ export const Upload__Upload = styled.div`
     justify-content:center;
     align-items:center;
 
+    font-size: 32px;
     text-align: center;
     text-overflow: ellipsis;
     overflow: hidden;

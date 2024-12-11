@@ -22,7 +22,7 @@ export const QueOptionbox__Wrapper = styled.div`
     left: 50%;
     transform: translate(-50%, -50%);
 
-    background-color: #e2e2e2;
+    background-color: #ffffff;
     
     border-radius: 10px;
     border: 1px solid black;
@@ -56,13 +56,30 @@ export const QueOptionbox__Count = styled.div`
     margin-bottom: 10px;
 `
 export const QueOptionbox__Button = styled.button`
+    width: 100px;
+    height: 50px;
+
     font-size: 24px;
     padding: 5px 5px;
+    border-radius: 10px;
+
+    background-color: #ffffff;
 `
 
 export const QueOptionbox__SubmitContainer = styled.div`
     display:flex;
     justify-content:flex-end;
-    margin-top: 20px;
+    margin-top: 200px;
     gap: 20px;
+`
+
+export const QueOptionbox__SubmitButton = styled.button`
+    width: 100%;
+    height: 50px;
+
+    font-size: 24px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 0;
 `

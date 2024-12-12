@@ -11,33 +11,25 @@ export default function IndexLogic() {
 
   const uploadFile = async () => {
     //File Formdata 생성
-    const formDataFile = new FormData();
-    formDataFile.append("file", file);
+    const formData = new FormData();
+    formData.append("file", file);
 
-    //Json File Formdata 생성
-    const formDataJson = new FormData();
     const options = { numOfQuestions: count };
-    const optionsJson = JSON.stringify(options);
+    const jsonArr = { options: options };
+    const jsonFile = JSON.stringify(jsonArr);
 
-    formDataJson.append("jsonFile", options);
+    formData.append("jsonFile", jsonFile);
     try {
-      // const response = await axios.post(
-      //   // "http://localhost:8080/api/runfile/upload/1",
-      //   formData,
-      //   {
-      //     headers: {
-      //       "Content-Type": "multipart/form-data",
-      //     },
-      //   }
-      // );
-
-      axios
-        .post("", (req, res) => {
-          const [formDataFile, formDataJson] = req.body;
-        })
-        .then((res) => {
-          console.log(res.data);
-        });
+      const res = await axios.post(
+        "http://localhost:8080/api/file/upload/guest",
+        formData,
+        {
+          headers: {
+            "Content-Type": "multipart/form-data", // 파일 전송을 위해 필수
+          },
+        }
+      );
+      console.log(res.data);
       alert("성공");
     } catch (err) {
       alert("실패");

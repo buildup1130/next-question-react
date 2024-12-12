@@ -15,10 +15,9 @@ export default function IndexLogic() {
     formData.append("file", file);
 
     const options = { numOfQuestions: count };
-    const jsonArr = { options: options };
-    const jsonFile = JSON.stringify(jsonArr);
+    const optionsJson = JSON.stringify(options);
 
-    formData.append("jsonFile", jsonFile);
+    formData.append("options", optionsJson);
     try {
       const res = await axios.post(
         "http://localhost:8080/api/file/upload/guest",

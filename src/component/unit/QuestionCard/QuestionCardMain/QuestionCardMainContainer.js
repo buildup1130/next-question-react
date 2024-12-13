@@ -4,7 +4,7 @@ import QuestionCardMainPresenter from "./QuestionCardMainPresenter";
 import {useRouter} from "next/router"
 
 
-const QuestionCardMainContainer = () => {
+const QuestionCardMainContainer = (props) => {
   const router = useRouter(); // 페이지 이동 함수
   const questions = [
     {
@@ -32,6 +32,19 @@ const QuestionCardMainContainer = () => {
       answer: 0,
     },
   ];
+  const multipleChoice = JSON.parse(props.multipleChoice);
+
+  const multipleChoiceArr = multipleChoice.map((data,index) => {
+    const options = data.opt.split('/');
+    return{
+      content: data.name,
+      id: index + 1,
+      options:options,
+      answer: data.answer-1
+    }
+  })
+
+  // console.log(multipleChoiceArr);
 
   const [currentIndex, setCurrentIndex] = useState(0); // 현재 문제 번호
   const [selectedOption, setSelectedOption] = useState(null); // 선택된 보기
@@ -47,7 +60,7 @@ const QuestionCardMainContainer = () => {
   };
 
   const handleSubmit = () => {
-    const currentQuestion = questions[currentIndex];
+    const currentQuestion = multipleChoiceArr[currentIndex];
     if (selectedOption === currentQuestion.answer) {
       setIsCorrect(true); // 정답 처리
       setCorrectCount((prev) => prev + 1); // 맞춘 문제 수 증가
@@ -58,7 +71,7 @@ const QuestionCardMainContainer = () => {
   };
 
   const handleNext = () => {
-    if (currentIndex === questions.length - 1) {
+    if (currentIndex === multipleChoiceArr.length - 1) {
       // 마지막 문제일 경우 결과 화면으로 이동
       router.push({
         pathname: '/ResultPage',
@@ -67,7 +80,7 @@ const QuestionCardMainContainer = () => {
         //   correctAnswers: correctCount,
         // },
         query:{
-          totalQuestions: questions.length,
+          totalQuestions: multipleChoiceArr.length,
           correctAnswers: correctCount,}
       });
     } else {
@@ -81,9 +94,9 @@ const QuestionCardMainContainer = () => {
 
   return (
     <QuestionCardMainPresenter
-      question={questions[currentIndex]}
+      question={multipleChoiceArr[currentIndex]}
       current={currentIndex + 1}
-      total={questions.length}
+      total={multipleChoiceArr.length}
       selectedOption={selectedOption}
       incorrectOptions={incorrectOptions}
       isCorrect={isCorrect}

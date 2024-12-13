@@ -12,12 +12,15 @@ export default function IndexLogic() {
   const uploadFile = async () => {
     //File Formdata 생성
     const formData = new FormData();
-    formData.append("file", file);
+    formData.append("files", file);
 
-    const options = { numOfQuestions: count };
+    const options = {option:{numOfQuestions: count} };
     const optionsJson = JSON.stringify(options);
+    console.log(optionsJson);
 
-    formData.append("options", optionsJson);
+    const blob = new Blob([optionsJson], { type: 'application/json' });
+    formData.append("files",blob,'options.json');
+
     try {
       const res = await axios.post(
         "http://localhost:8080/api/file/upload/guest",
@@ -28,7 +31,7 @@ export default function IndexLogic() {
           },
         }
       );
-      console.log(res.data);
+      return res.data;
       alert("성공");
     } catch (err) {
       alert("실패");
@@ -40,7 +43,13 @@ export default function IndexLogic() {
   const onClickSubmit = () => {
     uploadFile()
       .then((res) => {
-        router.push("/QuestionPage/QuestionCard");
+        const multipleChoice = res.questions.filter( ques => ques.type === 'MULTIPLE_CHOICE');
+        router.push({
+          pathname: "/QuestionPage/QuestionCard",
+          query:{multipleChoice:JSON.stringify(multipleChoice)}
+        }
+        );
+        console.log(res.questions);
       })
       .catch((error) => {
         alert("업로드 중 문제 발생");

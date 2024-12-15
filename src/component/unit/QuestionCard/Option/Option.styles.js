@@ -13,11 +13,11 @@ export const OptionItem = styled.li`
   margin-bottom: 10px;
   cursor: pointer; // 클릭 가능하도록 설정
   background-color: ${({ isSelected, isCorrect, isIncorrect }) =>
-    isCorrect
-      ? "lightgreen" // 정답인 경우
-      : isIncorrect
-      ? "lightcoral" // 오답인 경우
-      : isSelected
+    // isCorrect
+    //   ? "lightgreen" // 정답인 경우
+    //   : isIncorrect
+    //   ? "lightcoral" // 오답인 경우
+       isSelected
       ? "lightblue" // 선택된 경우
       : "white"}; // 기본 색상
   color: ${({ isCorrect, isIncorrect }) =>

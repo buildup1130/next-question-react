@@ -1,19 +1,17 @@
 import React from "react";
+
 import {
   ResultContainer,
   CircleContainer,
   Circle,
   CircleText,
   CompleteButton,
-} from "./Result.styles";
+  ResultWrapper
+} from "./Result.styles.js";
 
-const ResultPresenter = ({
-  totalQuestions, // 총 문제 수
-  correctAnswers, // 맞춘 문제 수
-  incorrectAnswers, // 틀린 문제 수
-  correctPercentage, // 정답 비율
-}) => {
+export default function ResultPresenter(props){
   return (
+    <ResultWrapper>
     <ResultContainer>
       {/* 원형 진행률 */}
       <CircleContainer>
@@ -25,7 +23,7 @@ const ResultPresenter = ({
               stroke="#ff4d4d"
               strokeWidth="4"
               fill="none"
-              strokeDasharray={`${correctPercentage}, 100`}
+              strokeDasharray={`${props.correctPercentage}, 100`}
               d="M18 2.0845
               a 15.9155 15.9155 0 0 1 0 31.831
               a 15.9155 15.9155 0 0 1 0 -31.831"
@@ -36,7 +34,7 @@ const ResultPresenter = ({
               stroke="#1E90FF"
               strokeWidth="4"
               fill="none"
-              strokeDasharray={`${100 - correctPercentage}, 100`}
+              strokeDasharray={`${100 - props.correctPercentage}, 100`}
               d="M18 2.0845
               a 15.9155 15.9155 0 0 1 0 31.831
               a 15.9155 15.9155 0 0 1 0 -31.831"
@@ -44,14 +42,17 @@ const ResultPresenter = ({
           </svg>
           {/* 중앙 텍스트 */}
           <CircleText>
-            {correctAnswers}/{totalQuestions}
+            {props.correctAnswers}/{props.totalQuestions}
           </CircleText>
         </Circle>
       </CircleContainer>
       {/* 학습 완료 버튼 */}
       <CompleteButton>학습완료</CompleteButton>
     </ResultContainer>
+   </ResultWrapper>
   );
-};
+}
 
-export default ResultPresenter;
+ 
+
+

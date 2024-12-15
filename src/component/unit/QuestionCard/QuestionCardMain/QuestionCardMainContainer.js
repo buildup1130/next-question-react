@@ -75,10 +75,6 @@ const QuestionCardMainContainer = (props) => {
       // 마지막 문제일 경우 결과 화면으로 이동
       router.push({
         pathname: '/ResultPage',
-        // state: {
-          // totalQuestions: questions.length,
-        //   correctAnswers: correctCount,
-        // },
         query:{
           totalQuestions: multipleChoiceArr.length,
           correctAnswers: correctCount,}

@@ -1,5 +1,5 @@
 import React from "react";
-import { MainContainer, Button } from "./QuestionCardMain.styles";
+import { MainContainer, Button, QuestionCardMain__Wrapper } from "./QuestionCardMain.styles";
 import ProgressBar from "../ProgressBar/ProgressBarContainer";
 import Question from "../Question/QuestionContainer";
 import Option from "../Option/OptionContainer";
@@ -17,6 +17,7 @@ const QuestionCardMainPresenter = ({
   onNext,
 }) => {
   return (
+    <QuestionCardMain__Wrapper>
     <MainContainer>
       {/* 진행 바 */}
       <ProgressBar current={current} total={total} />
@@ -37,6 +38,7 @@ const QuestionCardMainPresenter = ({
         <Button onClick={onNext}>다음</Button> // 다음 버튼
       )}
     </MainContainer>
+    </QuestionCardMain__Wrapper>
   );
 };
 

@@ -1,14 +1,13 @@
 import styled from "@emotion/styled";
 
 export const ProgressBarContainer = styled.div`
-  width: 500px; // 전체 너비
+  width: 40%; // 전체 너비
   height: 10px; // 높이
   background-color: #ccc; // 배경색 (회색)
   border-radius: 5px; // 모서리 둥글게
   overflow: hidden; // 내부 요소 넘치지 않도록
 
-  position: fixed;
-  top: 20px;
+  transform:translateY(-100px);
 `;
 
 export const ProgressBarFill = styled.div`

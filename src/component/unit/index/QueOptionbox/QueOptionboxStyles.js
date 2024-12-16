@@ -34,6 +34,8 @@ export const QueOptionbox__Container = styled.div`
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
+
+    padding: 0px 40px;
 `
 
 export const QueOptionbox__Subtitle = styled.div`

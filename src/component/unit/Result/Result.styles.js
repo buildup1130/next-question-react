@@ -71,3 +71,37 @@ export const CompleteButton = styled.button`
     background-color: #0056b3;
   }
 `;
+
+export const CirleBorder = styled.div`
+  width: 400px;
+  height: 400px;
+
+  border: 0.5px solid black;
+  border-radius: 500px;
+
+  background: ${({ percentage }) => 
+    `conic-gradient(
+      #00C8FF ${percentage}%, 
+      #FF0000 ${percentage}% 100%
+    )`};
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 32px;
+`
+
+export const InnerCircle = styled.div`
+  width: 240px;
+  height: 240px;
+  background-color: white;
+  border-radius: 50%;
+
+  position:absolute;
+  z-index:0;
+`
+
+export const Circlefont = styled.div`
+  z-index:1;
+`

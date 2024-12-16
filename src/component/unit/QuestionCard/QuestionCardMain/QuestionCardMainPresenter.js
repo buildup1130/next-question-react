@@ -18,9 +18,9 @@ const QuestionCardMainPresenter = ({
 }) => {
   return (
     <QuestionCardMain__Wrapper>
+    <ProgressBar current={current} total={total} />
     <MainContainer>
       {/* 진행 바 */}
-      <ProgressBar current={current} total={total} />
       {/* 문제 텍스트 */}
       <Question content={question.content} />
       {/* 선택지 렌더링 */}

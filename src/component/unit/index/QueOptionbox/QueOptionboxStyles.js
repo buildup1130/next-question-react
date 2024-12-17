@@ -22,12 +22,21 @@ export const QueOptionbox__Wrapper = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
 
+<<<<<<< HEAD
   background-color: #ffffff;
 
   border-radius: 10px;
   border: 1px solid black;
   z-index: 1100;
 `;
+=======
+    background-color: #ffffff;
+    
+    border-radius: 10px;
+    border: 1px solid black;
+    z-index: 1100;
+`
+>>>>>>> 1e625e4 (Frontend 통합)
 
 export const QueOptionbox__Container = styled.div`
   display: flex;
@@ -58,6 +67,7 @@ export const QueOptionbox__Count = styled.div`
   margin-bottom: 10px;
 `;
 export const QueOptionbox__Button = styled.button`
+<<<<<<< HEAD
   width: 100px;
   height: 50px;
 
@@ -89,3 +99,32 @@ export const QueOptionbox__SubmitButton = styled.button`
   background-color: #ffffff;
   border: 0;
 `;
+=======
+    width: 100px;
+    height: 50px;
+
+    font-size: 24px;
+    padding: 5px 5px;
+    border-radius: 10px;
+
+    background-color: #ffffff;
+`
+
+export const QueOptionbox__SubmitContainer = styled.div`
+    display:flex;
+    justify-content:flex-end;
+    margin-top: 200px;
+    gap: 20px;
+`
+
+export const QueOptionbox__SubmitButton = styled.button`
+    width: 100%;
+    height: 50px;
+
+    font-size: 24px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 0;
+`
+>>>>>>> 1e625e4 (Frontend 통합)

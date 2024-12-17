@@ -19,7 +19,11 @@ const OptionPresenter = ({
           isCorrect={isCorrect === true && selectedOption === index} // 정답 보기인지 확인
           onClick={() => onSelect(index)} // 클릭 이벤트 전달
         >
+<<<<<<< HEAD
           {/* <OptionNumber>{index + 1}.</OptionNumber> 보기 번호 */}
+=======
+          <OptionNumber>{index + 1}.</OptionNumber> {/* 보기 번호 */}
+>>>>>>> 1e625e4 (Frontend 통합)
           {option} {/* 보기 텍스트 */}
         </OptionItem>
       ))}

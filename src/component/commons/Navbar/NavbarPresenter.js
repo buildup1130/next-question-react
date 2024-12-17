@@ -7,9 +7,13 @@ export default function NavbarUI(props){
         <Navbar__Wrapper>
             <Navbar__Logo>LOGO</Navbar__Logo>
             <Navbar__Container>
+<<<<<<< HEAD
                 <Navbar__Element
                     onClick = {() => {props.router.push("/")}}
                 ><Navbar__Icon><HomeOutlined/></Navbar__Icon>홈</Navbar__Element>
+=======
+                <Navbar__Element><Navbar__Icon><HomeOutlined/></Navbar__Icon>홈</Navbar__Element>
+>>>>>>> 1e625e4 (Frontend 통합)
                 <Navbar__Element><Navbar__Icon><BookOutlined/></Navbar__Icon>학습하기</Navbar__Element>
                 <Navbar__Element><Navbar__Icon><FolderOutlined/></Navbar__Icon>책장</Navbar__Element>
                 <Navbar__Element><Navbar__Icon><ReloadOutlined/></Navbar__Icon>오답노트</Navbar__Element>

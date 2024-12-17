@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 
+<<<<<<< HEAD
 export const ResultWrapper = styled.div`
   width: 100%;
   height: 100%;
@@ -10,6 +11,8 @@ export const ResultWrapper = styled.div`
   align-items: center;
 `;
 
+=======
+>>>>>>> 1e625e4 (Frontend 통합)
 export const ResultContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -71,6 +74,7 @@ export const CompleteButton = styled.button`
     background-color: #0056b3;
   }
 `;
+<<<<<<< HEAD
 
 export const CirleBorder = styled.div`
   width: 400px;
@@ -105,3 +109,5 @@ export const InnerCircle = styled.div`
 export const Circlefont = styled.div`
   z-index: 1;
 `;
+=======
+>>>>>>> 1e625e4 (Frontend 통합)

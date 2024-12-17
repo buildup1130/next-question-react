@@ -4,11 +4,11 @@ export const ResultWrapper = styled.div`
   width: 100%;
   height: 100%;
 
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
 
 export const ResultContainer = styled.div`
   display: flex;
@@ -79,7 +79,7 @@ export const CirleBorder = styled.div`
   border: 0.5px solid black;
   border-radius: 500px;
 
-  background: ${({ percentage }) => 
+  background: ${({ percentage }) =>
     `conic-gradient(
       #00C8FF ${percentage}%, 
       #FF0000 ${percentage}% 100%
@@ -90,18 +90,18 @@ export const CirleBorder = styled.div`
   align-items: center;
 
   font-size: 32px;
-`
+`;
 
 export const InnerCircle = styled.div`
-  width: 240px;
-  height: 240px;
+  width: 330px;
+  height: 330px;
   background-color: white;
   border-radius: 50%;
 
-  position:absolute;
-  z-index:0;
-`
+  position: absolute;
+  z-index: 0;
+`;
 
 export const Circlefont = styled.div`
-  z-index:1;
-`
+  z-index: 1;
+`;

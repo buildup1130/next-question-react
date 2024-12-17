@@ -1,48 +1,22 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; // React Router로 페이지 이동
 import QuestionCardMainPresenter from "./QuestionCardMainPresenter";
-import {useRouter} from "next/router"
-
+import { useRouter } from "next/router";
 
 const QuestionCardMainContainer = (props) => {
   const router = useRouter(); // 페이지 이동 함수
-  const questions = [
-    {
-      id: 1,
-      content: "A는 어떤 직업들을 수행할 수 있는 기술 및 연구 분야인가요?",
-      options: [
-        "건축 설계, 음악 제작, 요리",
-        "식물 배양, 지질 조사, 언어 교육",
-        "게임 개발, 문학 작업, 신발 제조",
-        "음식 인식, 문제 해결, 학습, 의사 결정 및 패턴 인식 등",
-        "공학, 철학 실험, 시각 예술",
-      ],
-      answer: 3,
-    },
-    {
-      id: 2,
-      content: "B는 어떤 기술을 활용할 수 있을까요?",
-      options: [
-        "인공지능, 머신러닝",
-        "전기 공학, 회로 설계",
-        "응용 화학, 약물 개발",
-        "컴퓨터 네트워크, 보안",
-        "교육 설계, 교수법 개발",
-      ],
-      answer: 0,
-    },
-  ];
+
   const multipleChoice = JSON.parse(props.multipleChoice);
 
-  const multipleChoiceArr = multipleChoice.map((data,index) => {
-    const options = data.opt.split('/');
-    return{
+  const multipleChoiceArr = multipleChoice.map((data, index) => {
+    const options = data.opt.split("/");
+    return {
       content: data.name,
       id: index + 1,
-      options:options,
-      answer: data.answer-1
-    }
-  })
+      options: options,
+      answer: data.answer - 1,
+    };
+  });
 
   // console.log(multipleChoiceArr);
 
@@ -74,10 +48,11 @@ const QuestionCardMainContainer = (props) => {
     if (currentIndex === multipleChoiceArr.length - 1) {
       // 마지막 문제일 경우 결과 화면으로 이동
       router.push({
-        pathname: '/ResultPage',
-        query:{
+        pathname: "/ResultPage",
+        query: {
           totalQuestions: multipleChoiceArr.length,
-          correctAnswers: correctCount,}
+          correctAnswers: correctCount,
+        },
       });
     } else {
       setCurrentIndex((prev) => prev + 1); // 다음 문제로 이동

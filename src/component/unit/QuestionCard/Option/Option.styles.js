@@ -2,11 +2,15 @@ import styled from "@emotion/styled";
 
 export const OptionList = styled.ul`
   list-style: none; // 기본 리스트 스타일 제거
-  padding: 0;
-  margin: 0;
+  padding: 0 20px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
 `;
 
 export const OptionItem = styled.li`
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   padding: 10px;
@@ -17,7 +21,7 @@ export const OptionItem = styled.li`
     //   ? "lightgreen" // 정답인 경우
     //   : isIncorrect
     //   ? "lightcoral" // 오답인 경우
-       isSelected
+    isSelected
       ? "lightblue" // 선택된 경우
       : "white"}; // 기본 색상
   color: ${({ isCorrect, isIncorrect }) =>

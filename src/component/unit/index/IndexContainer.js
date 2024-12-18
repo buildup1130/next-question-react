@@ -11,8 +11,8 @@ export default function IndexLogic() {
   const router = useRouter();
 
   const opts = {
-    lines: 8, // The number of lines to draw
-    length: 7, // The length of each line
+    lines: 13, // The number of lines to draw
+    length: 12, // The length of each line
     width: 5, // The line thickness
     radius: 10, // The radius of the inner circle
     scale: 1, // Scales overall size of the spinner

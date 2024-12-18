@@ -16,12 +16,14 @@ export const MainContainer = styled.div`
   font-family: Arial, sans-serif;
 
   border: 1px solid grey;
-  border-radius: 10px;
+  border-radius: 20px;
 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+
+  overflow:hidden;
 `;
 
 // 버튼 스타일
@@ -50,3 +52,8 @@ export const SubContainer = styled.div`
   transform: translateY(100px);
   padding-left: 100px;
 `;
+
+export const SubContainer__Current = styled.div`
+  font-size: 24px;
+  margin-right: 20px;
+`

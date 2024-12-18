@@ -5,7 +5,7 @@ const QuestionPresenter = ({ content, current }) => {
   return (
     <Question__Wrapper>
       <QuestionText>
-        문제 {current} {content}
+        문제 {current}. {content}
       </QuestionText>
     </Question__Wrapper>
   );

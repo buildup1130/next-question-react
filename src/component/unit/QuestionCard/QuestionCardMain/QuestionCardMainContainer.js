@@ -18,8 +18,6 @@ const QuestionCardMainContainer = (props) => {
     };
   });
 
-  // console.log(multipleChoiceArr);
-
   const [currentIndex, setCurrentIndex] = useState(0); // 현재 문제 번호
   const [selectedOption, setSelectedOption] = useState(null); // 선택된 보기
   const [incorrectOptions, setIncorrectOptions] = useState([]); // 오답 보기 목록
@@ -28,7 +26,7 @@ const QuestionCardMainContainer = (props) => {
   const [correctCount, setCorrectCount] = useState(0); // 맞춘 문제 수
 
   const handleSelectOption = (index) => {
-    if (!incorrectOptions.includes(index) && isCorrect === null) {
+    if (!incorrectOptions.includes(index)) {
       setSelectedOption(index); // 선택한 보기 저장
     }
   };
@@ -36,11 +34,14 @@ const QuestionCardMainContainer = (props) => {
   const handleSubmit = () => {
     const currentQuestion = multipleChoiceArr[currentIndex];
     if (selectedOption === currentQuestion.answer) {
+      if(isCorrect !== false){
+        setCorrectCount((prev) => prev + 1); // 맞춘 문제 수 증가
+      }
       setIsCorrect(true); // 정답 처리
-      setCorrectCount((prev) => prev + 1); // 맞춘 문제 수 증가
       setButtonState("next"); // 버튼 상태를 다음 버튼으로 변경
     } else {
       setIncorrectOptions((prev) => [...prev, selectedOption]); // 오답 처리
+      setIsCorrect(false);
     }
   };
 
@@ -63,6 +64,7 @@ const QuestionCardMainContainer = (props) => {
     }
   };
 
+ 
   return (
     <QuestionCardMainPresenter
       question={multipleChoiceArr[currentIndex]}

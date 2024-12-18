@@ -8,6 +8,7 @@ import {
   QueOptionbox__Backdrop,
   QueOptionbox__line,
   QueOptionbox__SubmitButton,
+  QueOptionbox__arr,
 } from "./QueOptionboxStyles";
 
 export default function QueOptionboxUI(props) {
@@ -25,9 +26,10 @@ export default function QueOptionboxUI(props) {
           문제 생성하기
         </QueOptionbox__Subtitle>
         <QueOptionbox__line></QueOptionbox__line>
-        <QueOptionbox__Subtitle>문제 개수</QueOptionbox__Subtitle>
+        <QueOptionbox__Subtitle style = {{marginLeft:"10px"}}>문제 개수</QueOptionbox__Subtitle>
         <QueOptionbox__Count>{props.count}개</QueOptionbox__Count>
         <QueOptionbox__Container>
+          <QueOptionbox__arr>
           <QueOptionbox__Button
             onClick={() => {
               props.setCount(5);
@@ -49,6 +51,9 @@ export default function QueOptionboxUI(props) {
           >
             15
           </QueOptionbox__Button>
+
+          </QueOptionbox__arr>
+          <QueOptionbox__arr>
           <QueOptionbox__Button
             onClick={() => {
               props.setCount(20);
@@ -70,6 +75,7 @@ export default function QueOptionboxUI(props) {
           >
             30
           </QueOptionbox__Button>
+          </QueOptionbox__arr>
         </QueOptionbox__Container>
         <QueOptionbox__SubmitContainer>
           <QueOptionbox__SubmitButton

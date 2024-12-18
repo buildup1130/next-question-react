@@ -4,6 +4,7 @@ import {
   Button,
   QuestionCardMain__Wrapper,
   SubContainer,
+  SubContainer__Current,
 } from "./QuestionCardMain.styles";
 import ProgressBar from "../ProgressBar/ProgressBarContainer";
 import Question from "../Question/QuestionContainer";
@@ -37,6 +38,7 @@ const QuestionCardMainPresenter = ({
         />
 
         <SubContainer>
+          <SubContainer__Current>{current}/{total}</SubContainer__Current>
           <ProgressBar current={current} total={total} />
           {/* 버튼 */}
           {buttonState === "submit" ? (

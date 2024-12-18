@@ -10,6 +10,6 @@ export const ProgressBarContainer = styled.div`
 
 export const ProgressBarFill = styled.div`
   height: 100%; // 컨테이너 높이
-  background-color: #000; // 진행 바 색상 (검정색)
+  background-color: #fff350; // 진행 바 색상 (검정색)
   transition: width 0.3s ease; // 부드러운 너비 변경 애니메이션
 `;

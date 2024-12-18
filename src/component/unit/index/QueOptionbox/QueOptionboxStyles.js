@@ -11,8 +11,8 @@ export const QueOptionbox__Backdrop = styled.div`
 `;
 
 export const QueOptionbox__Wrapper = styled.div`
-  width: 600px;
-  padding: 10px 20px;
+  width: 550px;
+  padding: 20px 20px 10px 20px;
 
   display: flex;
   flex-direction: column;
@@ -24,19 +24,24 @@ export const QueOptionbox__Wrapper = styled.div`
 
   background-color: #ffffff;
 
-  border-radius: 10px;
+  border-radius: 30px;
   border: 1px solid black;
   z-index: 1100;
 `;
 
 export const QueOptionbox__Container = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
+  flex-direction:column;
+  gap: 20px;
   justify-content: center;
-
-  padding: 0px 40px;
+  padding: 0px 20px;
 `;
+
+export const QueOptionbox__arr = styled.div`
+    display:flex;
+    gap: 20px;
+`
+
 
 export const QueOptionbox__Subtitle = styled.div`
   font-size: 24px;
@@ -48,24 +53,26 @@ export const QueOptionbox__line = styled.div`
   width: 100%;
   border-top: 1px solid gray;
 
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
 `;
 
 export const QueOptionbox__Count = styled.div`
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 10px;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-left: 10px;
 `;
 export const QueOptionbox__Button = styled.button`
-  width: 100px;
-  height: 50px;
+  width: 100%;
+  height: 60px;
 
   font-size: 24px;
   padding: 5px 5px;
   border-radius: 10px;
 
   background-color: #ffffff;
+  border: 1px solid grey;
 
   :active {
     background-color: grey;

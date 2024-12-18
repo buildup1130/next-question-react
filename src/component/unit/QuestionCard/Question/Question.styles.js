@@ -5,7 +5,7 @@ export const Question__Wrapper = styled.div`
   padding: 50px 0px;
 
   background-color: #fffbca;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
